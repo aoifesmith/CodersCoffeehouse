@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap');
+
+body {
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+h1,h2,h3 {
+	font-family: 'Merienda One', 'Brush Script MT', cursive;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+	font-size: xx-large;
+}
+
+header {
+	color: beige;
+}
+
+header > p {
+	color: white;
+}
+
+header {
+	background-color: black;
+}
+
+.page-header {
+    height: 50vh;	
+}
+
+.text-white {
+	color: #FFFFFF;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+strong {
+	font-size: 1.3rem;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+nav > a {
+	text-decoration: none;
+	color: beige;
+	margin: 1rem;
+}
+
+nav > a:hover {
+	color: silver;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+#coffee-box {
+	background-color: brown;
+}
+
+#tea-box {
+	background-color: #6f4e37;
+}
+
+#cold-drinks-box {
+	background-color: chocolate;
+}
+
+.drinks-box {
+	width: 33%;
+}
+
+a:hover {
+	text-decoration: none;
+	color: chocolate;
+}
+
+footer {
+	background-color: #6f4e37;
+	padding: 1em;
+	text-align: center;
+}
+
+footer > span {
+	color: silver;
+}
+
+footer > a {
+	color: beige;
+	text-decoration: none;
+	padding: 0 15px;
+	font-size: 0.8rem;
+}
+
+footer > p {
+	color: silver;
+}
+
+input[type=submit] {
+	margin-left: 0.75rem;
+	padding: 0.75rem;
+	background-color: #5e361b;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+
+form {
+	width: 700px;
+}
+
+legend {
+	font-size: large;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+small {
+    font-style: italic;
+}
